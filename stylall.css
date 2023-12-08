@@ -1,0 +1,54 @@
+html, body {
+    margin: 0px;
+    width: 100%;
+    height: 95%;
+}
+body {
+    background-image: url(samurai.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    color: antiquewhite;
+}
+.container {
+    margin-top: 8vh;
+    width: 100%;
+    height: 86vh;
+    display: flex;
+
+}
+.cent {
+    border-radius: 5px;
+    width: 100%;
+    min-height: 86vh;
+    margin: 0px auto;
+    text-align: center;
+    background-color: darkslateblue;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+	overflow: auto; /* або overflow: hidden; */
+}
+.foo {
+    background-color: LightGray;
+    height: 6vh;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.foout {
+	position: absolute;
+    top: 50%;
+    margin-top: -0.65em;
+}
+.card1 {
+	width: 18rem; 
+	margin-top: 2vh; 
+	position: relative;
+	margin-bottom: 2vh; 
+}
